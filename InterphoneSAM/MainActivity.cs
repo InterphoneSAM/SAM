@@ -55,7 +55,7 @@ namespace InterphoneSAM
 					callIntent.SetData(Android.Net.Uri.Parse("tel:" + translatedNumber));
 					StartActivity(callIntent);
 				});
-				callDialog.SetNegativeButton("Cancel", delegate { });
+				callDialog.SetNegativeButton("Cancel now!!!", delegate { });
 
 				// Show the alert dialog to the user and wait for response.
 				callDialog.Show();
